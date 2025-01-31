@@ -1,5 +1,5 @@
 /* =============== GLOBAL =============== */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* =============== BASIC =============== */
 * {
@@ -18,11 +18,13 @@ body {
   justify-content: center;
   align-items: center;
   background: #102F1C;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   overflow-y: scroll;
   overflow-x: hidden;
+  font-weight:300;
+  font-size:1rem;
 }
 
 /* =============== SCROLL BAR =============== */
@@ -52,7 +54,7 @@ body {
 
 .container {
   width: 90%;
-  max-width: 40rem;
+  max-width: 44rem;
   margin: 2rem auto;
 }
 
@@ -65,17 +67,17 @@ body {
 
 .head-section img {
   margin-top:0.5rem;
-  width: 10rem;
-  height: 10rem;
+  width: 14rem;
+  height: 14rem;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 1rem;
 }
 
 .head-section h1 {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-  font-weight:600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight:400;
 }
 
 .head-section p {
@@ -83,6 +85,11 @@ body {
 }
 
 .bio {
+  margin-bottom: 1rem;
+  color: #ffffff;
+  text-align: center;
+}
+.bio p {
   margin-bottom: 1rem;
 }
 
@@ -124,7 +131,7 @@ body {
 }
 
 .social-links ul li a span h3 {
-  font-weight:600;
+  font-weight:400;
 }
 
 .sprout {
